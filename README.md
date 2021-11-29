@@ -6,10 +6,10 @@ Ogolny schemat aplikacji:
           \-> `backend2`
 
 Gdzie haproxy moze byc gotowym, publicznym obrazem, ze zmodyfikowana konfiguracja obslugujaca:
-  1. blokade ruchu przy dlugosci user agenta rownej lub mniejszej niz 16 znakow,
-  2. liste zabronionych user agentow (ladowana z pliku),
-  3. liste dozwolonych user agentow (override dla reguly nr. 1)
-  4. backend skladajacy sie z dwoch serwerow `backend1` oraz `backend2`, gdzie `backend2` jest serwerem backupowym
+  1. Wykonane
+  2. Wykonane
+  3. Wykonane
+  4. Wykonane
 
 BackendN to wlasnorecznie napisana aplikacja w Pythonie ktora obsluguje:
   1. endpoint http `/healthz` zwracajacy "HTTP 200 OK" na potrzeby healtcheckow z haproxy
