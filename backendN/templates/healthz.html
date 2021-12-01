@@ -1,0 +1,13 @@
+{% extends 'index.html' %}
+{% block title %}
+  Checking health
+{% endblock %}
+
+{% block content %}
+    <!-- <h1>{{ statusCode}}</h1> -->
+    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+        <div class="card-header">Status Code</div>
+        <div class="card-body">
+          <h5 class="d-flex justify-content-center">{{ statusCode }}</h5>       
+    </div>
+{% endblock %}
